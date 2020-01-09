@@ -205,29 +205,29 @@ class App extends Component {
     else if(today.getDay()==7)
       day='Sun'
     
-    if(today.getMonth()==1)
+    if(today.getMonth()==0)
       mon='Jan'
-    else if(today.getMonth()==2)
+    else if(today.getMonth()==1)
       mon='Feb'
-    else if(today.getMonth()==3)
+    else if(today.getMonth()==2)
       mon='Mar'
-    else if(today.getMonth()==4)
+    else if(today.getMonth()==3)
       mon='Apr'
-    else if(today.getMonth()==5)
+    else if(today.getMonth()==4)
       mon='May'
-    else if(today.getMonth()==6)
+    else if(today.getMonth()==5)
       mon='Jun'
-    else if(today.getMonth()==7)
+    else if(today.getMonth()==6)
       mon='Jul'
-    else if(today.getMonth()==8)
+    else if(today.getMonth()==7)
       mon='Aug'
-    else if(today.getMonth()==9)
+    else if(today.getMonth()==8)
       mon='Sept'
-    else if(today.getMonth()==10)
+    else if(today.getMonth()==9)
       mon='Oct'
-    else if(today.getMonth()==11)
+    else if(today.getMonth()==10)
       mon='Nov'
-    else if(today.getMonth()==12)
+    else if(today.getMonth()==11)
       mon='Dec'
 
 
